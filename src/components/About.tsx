@@ -20,11 +20,12 @@ const About = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-3">Introduction</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    I am a dedicated final-year Computer Science student with a strong foundation in 
-                    software development, algorithms, and problem-solving. Throughout my academic journey, 
-                    I have consistently demonstrated a commitment to excellence and a passion for learning 
-                    new technologies. My goal is to leverage my skills to contribute meaningfully to 
-                    innovative projects and organizations.
+                    I am a detail-oriented and enthusiastic B.Tech student specializing in Computer Science with 
+                    Artificial Intelligence and Machine Learning. With expertise in Java, SQL, HTML, CSS, and JavaScript, 
+                    I am skilled in developing scalable applications, database-driven systems, and interactive web interfaces. 
+                    I have a strong foundation in problem-solving, object-oriented programming, and database optimization, 
+                    with hands-on experience through academic projects and the ability to work effectively in collaborative 
+                    environments to deliver innovative solutions.
                   </p>
                 </div>
               </div>
@@ -39,8 +40,8 @@ const About = () => {
                   <h3 className="text-lg font-semibold">My Focus</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Specializing in full-stack development, data structures, and algorithm design. 
-                  I enjoy building efficient solutions and exploring emerging technologies.
+                  Specializing in web development, database management, and Java programming. 
+                  I am passionate about developing responsive web applications and exploring AI and cloud technologies.
                 </p>
               </CardContent>
             </Card>
@@ -52,8 +53,8 @@ const About = () => {
                   <h3 className="text-lg font-semibold">My Approach</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  I believe in continuous learning, collaborative problem-solving, and maintaining 
-                  a growth mindset in everything I do.
+                  I believe in continuous learning and delivering high-quality solutions. I focus on 
+                  writing clean, efficient code and maintaining strong attention to detail in all my projects.
                 </p>
               </CardContent>
             </Card>

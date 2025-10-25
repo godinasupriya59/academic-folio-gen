@@ -6,32 +6,32 @@ const Skills = () => {
     {
       icon: Code,
       title: "Programming Languages",
-      skills: ["Python", "Java", "JavaScript", "C++", "SQL"],
+      skills: ["Java", "JavaScript", "Data Structures"],
     },
     {
       icon: Globe,
-      title: "Web Development",
-      skills: ["HTML/CSS", "React", "Node.js", "Express", "Tailwind CSS"],
+      title: "Web Technologies",
+      skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     },
     {
       icon: Database,
-      title: "Databases & Tools",
-      skills: ["MySQL", "MongoDB", "PostgreSQL", "Firebase"],
+      title: "Database Management",
+      skills: ["SQL", "Database Optimization", "SQL Workbench"],
     },
     {
       icon: GitBranch,
       title: "Developer Tools",
-      skills: ["Git/GitHub", "VS Code", "Docker", "Linux", "Postman"],
+      skills: ["VS Code", "SQL Workbench", "Git/GitHub"],
     },
   ];
 
   const softSkills = [
     "Problem Solving",
+    "Object-Oriented Programming",
+    "Database Optimization",
     "Team Collaboration",
-    "Communication",
-    "Time Management",
+    "Attention to Detail",
     "Adaptability",
-    "Critical Thinking",
   ];
 
   return (

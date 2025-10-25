@@ -5,27 +5,39 @@ import { Button } from "@/components/ui/button";
 const Certifications = () => {
   const certifications = [
     {
-      title: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
+      title: "Java Full Stack",
+      issuer: "AICTE–Eduskills",
       date: "2024",
       link: "#",
     },
     {
-      title: "Full Stack Web Development",
-      issuer: "Coursera (University of Michigan)",
-      date: "2023",
+      title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      issuer: "Oracle",
+      date: "2025",
       link: "#",
     },
     {
-      title: "Data Structures and Algorithms",
-      issuer: "Udemy",
-      date: "2023",
+      title: "Data Structures with Java",
+      issuer: "LeapTalento",
+      date: "2024",
       link: "#",
     },
     {
-      title: "Python for Data Science",
-      issuer: "IBM (Coursera)",
-      date: "2022",
+      title: "AWS Academy - Generative AI",
+      issuer: "AWS Academy",
+      date: "2024",
+      link: "#",
+    },
+    {
+      title: "Infosys Springboard: Pragati-Path to Future",
+      issuer: "Infosys",
+      date: "2024",
+      link: "#",
+    },
+    {
+      title: "HTML5, CSS3, JavaScript, Java Programming",
+      issuer: "Various Platforms",
+      date: "2023-2024",
       link: "#",
     },
   ];

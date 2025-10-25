@@ -19,10 +19,10 @@ const Footer = () => {
               </div>
               <span className="text-sm text-muted-foreground">Email</span>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:goadinasupriya20@gmail.com"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
-                your.email@example.com
+                goadinasupriya20@gmail.com
               </a>
             </div>
 
@@ -32,10 +32,10 @@ const Footer = () => {
               </div>
               <span className="text-sm text-muted-foreground">Phone</span>
               <a
-                href="tel:+1234567890"
+                href="tel:+919398678411"
                 className="text-sm font-medium hover:text-primary transition-colors"
               >
-                +1 (234) 567-890
+                +91 9398678411
               </a>
             </div>
 
@@ -44,19 +44,23 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-primary" />
               </div>
               <span className="text-sm text-muted-foreground">Location</span>
-              <span className="text-sm font-medium">City, Country</span>
+              <span className="text-sm font-medium">Proddatur, India</span>
             </div>
           </div>
 
           <div className="flex justify-center gap-4 mb-8">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/godinasupriya"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://github.com/godinasupriya59"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               <Github className="w-5 h-5" />
@@ -64,7 +68,7 @@ const Footer = () => {
           </div>
 
           <div className="text-center text-sm text-muted-foreground border-t border-border pt-6">
-            <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Godina Supriya. All rights reserved.</p>
             <p className="mt-2">Built with React, TypeScript, and Tailwind CSS</p>
           </div>
         </div>

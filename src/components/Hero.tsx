@@ -18,30 +18,36 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-foreground">
-            Your Name Here
+            Godina Supriya
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground">
-            Final Year B.Sc. Computer Science Student
+            B.Tech Computer Science (AIML) Student
           </p>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Passionate about technology and innovation. Dedicated to continuous learning 
-            and building solutions that make a difference.
+            Detail-oriented and enthusiastic B.Tech student with expertise in Java, SQL, HTML, CSS, and JavaScript. 
+            Skilled in developing scalable applications, database-driven systems, and interactive web interfaces.
           </p>
           
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
-            <Button size="lg" className="gap-2">
-              <Mail className="w-4 h-4" />
-              Contact Me
+            <Button size="lg" className="gap-2" asChild>
+              <a href="mailto:goadinasupriya20@gmail.com">
+                <Mail className="w-4 h-4" />
+                Contact Me
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2">
-              <Github className="w-4 h-4" />
-              GitHub
+            <Button size="lg" variant="outline" className="gap-2" asChild>
+              <a href="https://github.com/godinasupriya59" target="_blank" rel="noopener noreferrer">
+                <Github className="w-4 h-4" />
+                GitHub
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2">
-              <Linkedin className="w-4 h-4" />
-              LinkedIn
+            <Button size="lg" variant="outline" className="gap-2" asChild>
+              <a href="https://www.linkedin.com/in/godinasupriya" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-4 h-4" />
+                LinkedIn
+              </a>
             </Button>
           </div>
         </div>

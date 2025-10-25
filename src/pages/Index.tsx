@@ -5,9 +5,6 @@ import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
-import Activities from "@/components/Activities";
-import Achievements from "@/components/Achievements";
-import Goals from "@/components/Goals";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,9 +17,6 @@ const Index = () => {
       <Skills />
       <Projects />
       <Certifications />
-      <Activities />
-      <Achievements />
-      <Goals />
       <Footer />
     </div>
   );

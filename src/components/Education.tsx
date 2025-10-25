@@ -4,24 +4,25 @@ import { GraduationCap, Calendar } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University Name",
-      period: "2021 - 2025",
-      gpa: "3.8/4.0",
+      degree: "Bachelor of Technology in Computer Science (AIML)",
+      institution: "Mohan Babu University, Tirupati",
+      period: "2022 - Present",
+      gpa: "8.9 CGPA",
       highlights: [
-        "Relevant coursework: Data Structures, Algorithms, Database Management, Web Development",
-        "Dean's List: Fall 2022, Spring 2023",
-        "Active member of Computer Science Society",
+        "Specialization in Artificial Intelligence and Machine Learning",
+        "Strong foundation in Java, web technologies, and database systems",
+        "Hands-on experience through academic projects in web development",
+        "Roll No: 22101A010059",
       ],
     },
     {
-      degree: "Higher Secondary Education",
-      institution: "School Name",
-      period: "2019 - 2021",
-      gpa: "95%",
+      degree: "Intermediate (MPC)",
+      institution: "Narayana Junior College",
+      period: "2020 - 2022",
+      gpa: "74%",
       highlights: [
-        "Specialized in Science stream",
-        "School topper in Computer Science",
+        "Specialized in Mathematics, Physics, and Chemistry",
+        "Built strong analytical and problem-solving skills",
       ],
     },
   ];

@@ -5,42 +5,21 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Website",
+      title: "Student Feedback Form",
       description:
-        "A full-stack e-commerce platform with user authentication, product management, and payment integration. Built with React, Node.js, and MongoDB.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
+        "A fully responsive web application designed for students and teachers to submit feedback. Features include front-end form validation, secure database connectivity, and comprehensive feedback reporting system. Implemented back-end logic using SQL queries with dynamic elements for improved user experience.",
+      technologies: ["HTML", "CSS", "JavaScript", "SQL"],
       links: {
-        github: "#",
-        demo: "#",
+        github: "https://github.com/godinasupriya59",
       },
     },
     {
-      title: "Task Management System",
+      title: "Restaurant Website",
       description:
-        "A collaborative task management application with real-time updates, role-based access control, and analytics dashboard.",
-      technologies: ["JavaScript", "Firebase", "Tailwind CSS"],
+        "A responsive multi-page restaurant website featuring menu, gallery, contact, and feedback sections. Built with semantic HTML5 and modern CSS3, ensuring mobile and tablet compatibility through media queries. Clean UI design with modular CSS architecture.",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       links: {
-        github: "#",
-        demo: "#",
-      },
-    },
-    {
-      title: "Weather Forecast App",
-      description:
-        "A responsive weather application that provides current weather and 7-day forecasts using external APIs with location-based services.",
-      technologies: ["React", "API Integration", "CSS"],
-      links: {
-        github: "#",
-        demo: "#",
-      },
-    },
-    {
-      title: "Algorithm Visualizer",
-      description:
-        "An educational tool to visualize sorting and searching algorithms, helping students understand algorithmic concepts interactively.",
-      technologies: ["Python", "Django", "JavaScript"],
-      links: {
-        github: "#",
+        github: "https://github.com/godinasupriya59",
       },
     },
   ];
@@ -74,15 +53,11 @@ const Projects = () => {
                   </div>
                   <div className="flex gap-3">
                     {project.links.github && (
-                      <Button variant="outline" size="sm" className="gap-2">
-                        <Github className="w-4 h-4" />
-                        Code
-                      </Button>
-                    )}
-                    {project.links.demo && (
-                      <Button variant="outline" size="sm" className="gap-2">
-                        <ExternalLink className="w-4 h-4" />
-                        Demo
+                      <Button variant="outline" size="sm" className="gap-2" asChild>
+                        <a href={project.links.github} target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4" />
+                          Code
+                        </a>
                       </Button>
                     )}
                   </div>
